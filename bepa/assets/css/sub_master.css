@@ -1,0 +1,16 @@
+/* sub_master.css */
+
+/**** 초기화 *****/
+@import url(reset.css);
+
+/**** 헤더영역 ****/
+@import url(sub_header_pc.css) screen and (min-width:1201px);
+@import url(sub_header_tablet.css) screen and (max-width:1200px) and (min-width:767px);
+@import url(sub_header_mobile.css) screen and (max-width:766px);
+
+/**** 콘텐츠 영역 ****/
+@import url(sub_contents.css);
+
+
+/**** 푸터 영역 ****/
+@import url(footer.css);

@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*
+ * default style definition
+ */
+
+a:link, a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+a:active, a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	/*	overflow: auto; */
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+.container {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 440px;
+}
+
+/*
+.container { width: 440px; }
+*/
+
+/*1번째 div 닫기버튼*/
+.container .close { height: 21px; margin: auto; position: relative; float: right; top: -0px; left: 20px; }
+
+/*2번째 타이틀*/
+.container .title { width:100%; height: 52px; background: #d75847; padding: 10px auto; margin: 0px; padding-top: 6px; }
+.container .title .title_regist {font-family: "HY중고딕"; font-size:14pt; letter-spacing: 0pt; font-weight: bold; color: #FFF; text-align: center; margin: 10px auto; }
+
+/*3번째 div 내용*/
+.container .content { width:100%; height: 390px; background-color: #fff4f4; margin: 0px; padding: 0px; }
+.container .content .content_left { width: 109px; height: 300px; float:left; background-color: FFF; padding: 11px 0 0 0; }
+.container .content .content_left  ul { margin: 1px; padding: 1px; list-style: none;}
+.container .content .content_left  li { margin: 0px; padding: 11px; height: 19px;  font-family: "HY중고딕"; font-size: 11pt; letter-spacing: -1pt; color: 222222; }
+
+.container .content .content_right { width: 326px; height: 300px; float: left; background-color:FFF; padding: 11px 0 0 0;}
+.container .content .content_right ul {list-style: none; padding: 0px; margin: 0 0 0 10px; }
+.container .content .content_right li {list-style: none; padding: 11px; height: 18px; }
+.container .content .content_right input[type="text"] { width: 270px; height: auto; line-height: normal; font-family: "HY중고딕"; padding: 6px 5px 4px 8px; color: #8d8d8d;  border: #8f8f8f 1px solid; margin: auto; -webkit-appearance: none; }
+input:focus {outline: 2px solid #d75847; }
+.container .content .content_right select { width: 285px; height: auto; line-height: normal; font-family: "HY중고딕"; padding: 6px 5px 4px 8px; color: #8d8d8d;  border: #8f8f8f 1px solid; margin: auto; -webkit-appearance: none; }
+
+/*4번째 직원등록버튼*/
+.container .bottom { width: 99%; height: 72px; float: left; text-align:center; }
+.container .bottom .bottom_btn { width: 268px; height: 50px; background-color: #FFF; margin:10px auto; }

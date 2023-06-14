@@ -1,0 +1,154 @@
+ul, ol {
+    list-style: none;
+}
+.rentbox{
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 0px solid #ff0000;
+}
+.rentbox ol {
+    margin: 0 auto;
+    padding: 0 0 30px;
+    border: 0px solid #ff0000;
+}
+.rentbox ol li.step_box01 {
+    width: 33.3%;
+    min-width: 300px;
+}
+.rentbox ol li.arrowR {
+    background: url(../images/img_arrow_r.gif) 280px center no-repeat;
+}
+
+.rentbox ol li.arrowR:last-child {
+    background: none;
+}
+
+.rentbox ol li.heightR {
+    margin-bottom: 20px;
+    min-height: 380px;
+}
+.rentbox ol li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background:#e5f8e5;
+}
+
+.rentbox ol li div.fix.bg01 {
+    background: url(../images/img_step01.png) 50%/*90px*/ 83px no-repeat;
+	min-height: 500px;
+}
+.rentbox ol li div.fix.bg02{
+    background: url(../images/img_step02.gif) 50%/*90px*/ 83px no-repeat;
+	min-height: 500px;
+}
+.rentbox ol li div.fix.bg03{
+    background: url(../images/img_step03.png) 50%/*90px*/ 83px no-repeat;
+	min-height: 500px;
+}
+.rentbox ol li div.fix.bg04{
+    background: url(../images/img_step04.png) 50%/*90px*/ 83px no-repeat;
+    min-height: 500px;
+}
+.rentbox ol li div.fix.bg05{
+    background: url(../images/img_step05.png) 50%/*90px*/ 83px no-repeat;
+    /*width: 70% !important;*/
+    min-width: 890px !important;
+    min-height: 160px;
+}
+.rentbox ol li div.fix {
+    position: relative;
+    padding: 22px 15px;
+    /* width: 308px; */
+    width: 30%;
+    min-width: 260px;
+    height: 350px;
+    border: 1px solid #c9c9c9;
+    border-top: 4px solid #1682ba;
+}
+
+.rentbox ol li div.fix h3 {
+    margin: 0 0 160px;
+    padding: 0;
+    font-size: 20px;
+    color: #1682ba;
+    text-align: center;
+    background: none;
+}
+.rentbox ol li div.fix ul.basic {
+    margin: 0;
+    padding: 0;
+}
+.rentbox ol li div.fix h3 span {
+    font-size: 14px;
+    color: #333;
+}
+.rentbox ol li div.fix ul.basic li {
+    float: none;
+    padding-left: 17px;
+    color: #333;
+    font-weight: bold;
+    background: url(../images/bullet_list_first.gif) 4px 7px no-repeat;
+
+}
+.rentbox ol li div.fix ul.basic li ul {
+    margin: 0 0 10px;
+}
+.rentbox ol li div.fix ul.basic li ul li {
+    margin: 0 0 0 -11px;
+    padding-left: 11px;
+    color: #666;
+    font-weight: normal;
+    background: url(../images/bullet_list_second.gif) 0 10px no-repeat;
+}
+.sub_docu strong.point_b_blue {
+    color: #2987d0;
+}
+.sub_docu strong.point_b_green {
+    color:#6dba5f;
+}
+.sub_docu strong .point_b_red{
+    color:#9d0000
+}
+
+@media screen and (max-width: 1199px){
+    .rentbox ol li.step_box01 {
+        width: 320px;
+    }
+}
+@media screen and (min-width: 998px){
+    .rentbox ol li div.fix.bg05{
+        width: 574px;
+    }
+}
+@media screen and (max-width: 998px){
+    .rentbox ol li.arrowR {
+        background: url(../images/sub/img_arrow_d.gif) center bottom no-repeat;
+    }
+}
+@media screen and (max-width: 998px){
+    .rentbox ol li.step_box01 {
+        width: 100%;
+    }
+}
+@media (max-width: 998px){
+    .rentbox ol li div.fix {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 998px){
+    .rentbox ol li.arrowR {
+        background: url(../images/img_arrow_d.gif) center bottom no-repeat;
+    }
+}
+@media (max-width: 998px){
+    .rentbox ol li div.fix.bg04 {
+        min-height: 450px;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .rentbox ol li div.fix.bg05 {
+        width: 100%;
+    }
+}

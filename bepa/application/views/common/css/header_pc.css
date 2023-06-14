@@ -1,0 +1,77 @@
+/* header_pc.css */
+
+
+/**** head top ****/
+.head_top{
+	max-width: 1200px;
+	height: 35px;
+	overflow: hidden;
+    background: #004195;
+	z-index: 11;
+	margin: 0 auto;
+}
+.head_top > a > li{
+	float: right;
+    margin-left: 30px;
+    color: white;
+	line-height: 35px;
+	font-size: 0.8em;
+	color: white;
+}
+
+#header{width:100%; height:76px;  margin:0 auto; position:relative; z-index:100; background: #004195;}
+	#main_header{width:100%;}
+	
+		/**** 로고 ****/
+		#logo_top{position:absolute; left:50%; margin-left:-600px; top:40px;}
+			#logo_top > a{display:block; width:207px; height:40px; background:url(../images/logo_top.png) no-repeat; text-indent:-600px; overflow:hidden;}
+		
+	/**** 메인메뉴 ****/
+	#main_nav{width:100%; height:76px; transition-duration:0.3s; background:#fff; }
+	#main_nav:hover{height:300px;}
+		#main_nav > ul{position:absolute; left:50%; margin-left:-150px; width:846px; height:76px; overflow:hidden; transition-duration:0.3s;}
+		#main_nav:hover > ul{height:460px;}
+			#main_nav > ul > li{float:left; text-align:center;}
+				#main_nav > ul > li > a{
+					display:block;
+					height:76px;
+					line-height:76px;
+					font-weight:bold;
+					font-size:18px;
+					padding:0 50px;
+					text-decoration:none;
+					color:#000;
+				}
+				#main_nav > ul > li:last-child{}
+				/* 세부메뉴 1차 depth */
+				#main_nav > ul > li > ul{}
+					#main_nav > ul > li > ul > li{}
+						#main_nav > ul > li > ul > li > a{display:block; font-size:16px; color:#000;line-height:36px;}
+						#main_nav > ul > li > ul > li:hover > a{font-weight:bold;}
+							/* 세부메뉴 2차 depth */
+							#main_nav > ul > li > ul > li > ul{}
+								#main_nav > ul > li > ul > li > ul > li{}
+									#main_nav > ul > li > ul > li > ul > li > a{display:block; font-size:13px; color:#FF9; line-height:26px;}
+									#main_nav > ul > li > ul > li > ul > li:hover > a{font-weight:bold;}
+
+				
+				/* 검색 
+				div.search{position:absolute; left:50%; margin-left:420px; top:8px;}
+					div.search > a{display:block; width:21px; height:21px; background:url(../images/btn_search_pc.png); text-indent:-6000px; overflow:hidden;}*/
+				
+
+/* 메인 이미지 로고 */
+#image_slider > #logo_image{width:300px; height:300px; position:absolute; left:50%; top:50%; margin-left:-150px; margin-top:-180px; z-index:3;}
+
+/* view button */
+#image_slider > .btn_view{position:absolute; left:50%; top:50%; margin-left:-76px; margin-top:180px; width:152px; height:45px; line-height:41px; z-index:4;}
+	#image_slider > .btn_view > a{display:block; font-size:18px; text-align:center;border:2px solid #fff; box-sizing:border-box;  color:#fff; transition-duration:0.3s;}
+	#image_slider > .btn_view:hover > a{font-weight:bold;border:2px solid #a03a13; box-sizing:border-box;  background:#a03a13;}
+				
+
+
+
+
+
+
+

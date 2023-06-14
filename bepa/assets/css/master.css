@@ -1,0 +1,16 @@
+/* master.css */
+
+/**** 초기화 *****/
+@import url(style.css);
+@import url(reset.css);
+@import url(flexslider.css);
+
+/**** 헤더영역 ****/
+@import url(header_pc.css);
+
+/**** 콘텐츠 영역 ****/
+@import url(contents.css);
+
+
+/**** 푸터 영역 ****/
+@import url(footer.css);

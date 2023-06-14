@@ -1,0 +1,138 @@
+/* sub_header_mobile.css */
+
+#header{width:100%; height:60px; position:relative; z-index:100;}
+	#main_header{width:100%; height:60px; background:#fff; position:absolute; left:0; top:0;}
+	
+		/**** 로고 ****/
+		#logo_top{display:none;}
+		/**** 서브메뉴 ****/
+		#top_sub_menu{width:200px; height:30px; position:absolute; left:50%; margin-left:-100px; top:14px; text-align:center; line-height:30px; font-size:22px; color:#994708;}
+			
+			
+	/**** 메인메뉴 ****/
+	label.toggle{display:block; width:24px; height:24px; background:url(../images/btn_menu_b.png); background-size:100% auto; overflow:hidden
+	; text-indent:-6000px; position:absolute; right:18px; top:17px; z-index:200;}
+	
+	/** 토글메뉴 구현 **/
+	input#toggle + #wrap{
+		position:relative;
+		right:0; top:0;
+
+		transition-duration:0.3s;
+	}
+	input#toggle:checked + #wrap{
+		position:fixed;
+		right:100%; top:0;
+	}
+
+	input#toggle + #wrap #main_nav{
+		position:fixed;
+		right:-100%; top:0; bottom:0;
+		width:100%;
+		transition-duration:0.3s;
+	}
+	input#toggle:checked + #wrap #main_nav{
+		right:0;
+		background:#994708;
+	}
+
+	/** 메인메뉴 디자인 **/
+	#main_nav{
+		overflow:auto; padding-top:76px;
+	}
+		#main_nav > label.close{display:block; width:24px; height:24px; background:url(../images/btn_close_w.png); background-size:100% auto; overflow:hidden; text-indent:-6000px; position:absolute; left:18px; top:17px; z-index:200;}
+		#main_nav > ul{
+			
+		}
+			#main_nav > ul > li{
+				border-bottom:1px solid #ccc;
+				margin-left:50px;
+			}
+				#main_nav > ul > li > a{
+					display:none;	
+				}
+				#main_nav > ul > li > h3{
+					
+					width:100%; height:70px;
+					color:#fff;
+					font-size:20px;
+					line-height:70px;
+					box-sizing:border-box;
+					padding:0 30px;
+				}
+
+				/*세부메뉴 1차 depth*/
+				#main_nav > ul > li > ul{}
+					#main_nav > ul > li > ul > li{
+						height:0;
+						overflow:hidden;
+						transition-duration:0.3s;
+					}
+						#main_nav > ul > li > ul > li > a{
+							color:#fff;
+							padding-left:50px;
+							font-size:20px;
+						}
+						#main_nav > ul > li > ul > li > h3{
+							color:#fff;
+							padding-left:50px;
+							font-size:20px;
+						}
+						#main_nav > ul > li > ul > li:hover > a,
+						#main_nav > ul > li > ul > li:hover > h3{
+							font-weight:bold;
+						}
+						
+						/*세부메뉴 2차 depth*/
+							#main_nav > ul > li > ul > li > ul{
+								margin-top:10px;
+							}
+								#main_nav > ul > li > ul > li > ul > li{
+									height:0;
+									overflow:hidden;
+									transition-duration:0.3s;
+								}
+									#main_nav > ul > li > ul > li > ul > li > a{
+										display:block;
+										width:100%; height:36px;
+										line-height:18px;
+										font-size:20px;
+										color:#FFC;
+										padding-left:90px;
+									}
+									#main_nav > ul > li > ul > li > ul > li:hover > a{font-weight:bold;}
+									
+		
+	
+	/**** 뒤로가기 ****/
+	#back{
+		width:24px; height:24px;
+		background:url(../images/btn_back_b.png);
+		background-size:100% auto;
+		overflow:hidden;
+		text-indent:-6000px;
+		
+		position:absolute; left:18px; top:17px;
+	}
+		#back < a{display:block;}
+	
+	/* 서브 하단이미지 모바일 */
+	#touchSlider5{width:100%; height:50px; position:relative; left:0; top:60px; background:#994708; margin:0 auto; overflow:hidden;}
+	
+	#touchSlider5 > ul{ width:99999px; height:50px; position:absolute; top:0px; left:0; overflow:hidden; line-height:50px; margin:0 10px;}
+	#touchSlider5 > ul > li { float:left; width:100%; height:50px; background:#994708; font-size:17px; color:#fff; }	
+	
+		#touchSlider4{width:100%; height:50px; position:relative; left:0; top:60px; border-bottom:1px solid #994708; margin:0 auto; overflow:hidden;}
+	
+		#touchSlider4 > ul { width:320px; height:50px; position:absolute; left:0; top:0px; overflow:hidden; line-height:50px; margin:0 10px;}
+		#touchSlider4 > ul > li { float:left; width:106px; height:50px; font-size:16px; color:#994708; }	
+
+
+/* 메인 이미지 로고 */
+#image_slider > #logo_image{width:80px; height:80px; position:absolute; left:50%; top:45%; margin-left:-40px; margin-top:-40px; z-index:3;}
+#image_slider > #logo_image > img{display:block; width:100%; height:100%;}
+
+/* view button */
+#image_slider > .btn_view{position:absolute; left:50%; bottom:10px; margin-left:-40px; width:80px; height:36px; z-index:4;}
+	#image_slider > .btn_view > a{display:block; font-size:16px; text-align:center; border:2px solid #fff; box-sizing:border-box; line-height:35px; color:#fff;}
+	#image_slider > .btn_view:hover > a{font-weight:bold; border:2px solid #a03a13; box-sizing:border-box;  background:#a03a13;}

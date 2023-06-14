@@ -1,0 +1,137 @@
+/* sub_contents.css */
+
+/*PC ver*/
+@media screen and (min-width:1201px){
+#contents_warp{width:100%;}
+	#contents{width:1200px; margin:0 auto;}
+		#contents h2{font-size:40px; font-weight:bold;}
+		
+		#contents h2,#contents h3,#contents h4,#contents h5{text-align:center;}
+		#mission{}
+			#mission > h5{font-size:25px; margin-top:80px; font-weight:bold;}
+			#mission > div.table{display:table; width:1052px; height:160px; margin:0 auto; background:url(../images/bg_m1.gif); background-size:100% auto; margin-top:30px;}
+				
+				#mission > div.table > div{
+					display:table-cell;
+					vertical-align:middle;
+					text-align:center;
+					font-size:30px; line-height:45px;
+				}				
+				#mission > div.table > div > h3{font-weight:bold;}
+				#mission > div.table > div > h4{color:#fff;}				
+				
+			#mission > p{width:1052px; margin:42px auto 0; font-size:18px; font-weight:bold; line-height:30px; letter-spacing:0px;}
+				#mission > p > span{font-weight:normal;}
+			
+		#vision{}
+			#vision > h5{font-size:25px; margin-top:106px; font-weight:bold;}
+			#vision > div.table{display:table; width:1052px; height:160px; margin:0 auto; background:url(../images/bg_m2.gif); background-size:100% auto; margin-top:30px;}
+			
+				#vision > div.table > div{
+					display:table-cell;
+					vertical-align:middle;
+					text-align:center;
+					font-size:30px; line-height:45px;
+				}
+				#vision > div.table > div > h3{font-weight:bold;}
+				#vision > div.table > div > h4{color:#fff;}
+				
+			#vision > p{width:1052px; margin:42px auto 0; font-size:18px; font-weight:bold; line-height:30px; letter-spacing:0px;}
+				#vision > p > span{font-weight:normal;}
+			
+		#Value_Principles{}
+			#Value_Principles > h5{font-size:25px; margin-top:110px; font-weight:bold;}
+			#Value_Principles > p{width:1052px; margin:36px auto 0; padding-bottom:244px; font-size:18px; font-weight:bold; line-height:30px; letter-spacing:0px;}
+
+}
+/* Tablet ver ---------------------------------------------------------------------------------------------- */
+@media screen and (max-width:1200px) and (min-width:768px){
+#contents_warp{width:100%;}
+	#contents{width:100%;}
+		#contents h2{font-size:40px; font-weight:bold;}
+		
+		#contents h2,#contents h3,#contents h4,#contents h5{text-align:center;}
+		#mission{}
+			#mission > h5{font-size:25px; margin-top:80px; font-weight:bold;}
+			#mission > div.table{display:table; width:90%; height:160px; margin:0 auto; background:url(../images/bg_m1.gif); background-size:100% auto; margin-top:30px;}
+				
+				#mission > div.table > div{
+					display:table-cell;
+					vertical-align:middle;
+					text-align:center;
+					font-size:30px; line-height:45px;
+				}				
+				#mission > div.table > div > h3{font-weight:bold;}
+				#mission > div.table > div > h4{color:#fff;}				
+				
+			#mission > p{width:90%; margin:42px auto 0; font-size:18px; font-weight:bold; line-height:30px; letter-spacing:0px;}
+				#mission > p > span{font-weight:normal;}
+			
+		#vision{}
+			#vision > h5{font-size:25px; margin-top:106px; font-weight:bold;}
+			#vision > div.table{display:table; width:90%; height:160px; margin:0 auto; background:url(../images/bg_m2.gif); background-size:100% auto; margin-top:30px;}
+			
+				#vision > div.table > div{
+					display:table-cell;
+					vertical-align:middle;
+					text-align:center;
+					font-size:30px; line-height:45px;
+				}
+				#vision > div.table > div > h3{font-weight:bold;}
+				#vision > div.table > div > h4{color:#fff;}
+				
+			#vision > p{width:90%; margin:42px auto 0; font-size:18px; font-weight:bold; line-height:30px; letter-spacing:0px;}
+				#vision > p > span{font-weight:normal;}
+			
+		#Value_Principles{}
+			#Value_Principles > h5{font-size:25px; margin-top:110px; font-weight:bold;}
+			#Value_Principles > p{width:90%; margin:36px auto 0; padding-bottom:160px; font-size:18px; font-weight:bold; line-height:30px; letter-spacing:0px;}
+}
+
+
+/* Mobile ---------------------------------------------------------------------------------------------- */
+@media screen and (max-width:767px){
+#contents_warp{width:100%; margin-top:160px;}
+	#contents{width:100%;}
+		#contents h2{font-size:26px; font-weight:bold;}
+		
+		#contents h2,#contents h3,#contents h4,#contents h5{text-align:center;}
+		#mission{}
+			#mission > h5{font-size:20px; margin-top:40px; font-weight:bold;}
+			#mission > div.table{display:table; width:90%; height:160px; margin:0 auto; background:url(../images/bg_m1.gif); background-size:100% auto; margin-top:30px;}
+				
+				#mission > div.table > div{
+					display:table-cell;
+					vertical-align:middle;
+					text-align:center;
+					font-size:22px; line-height:30px;
+					padding:0 10px;
+				}				
+				#mission > div.table > div > h3{font-weight:bold;}
+				#mission > div.table > div > h4{color:#fff;}				
+				
+			#mission > p{width:90%; margin:20px auto 0; font-size:16px; font-weight:bold; line-height:24px; letter-spacing:0px;}
+				#mission > p > span{font-weight:normal;}
+			
+		#vision{}
+			#vision > h5{font-size:20px; margin-top:50px; font-weight:bold;}
+			#vision > div.table{display:table; width:90%; height:160px; margin:0 auto; background:url(../images/bg_m2.gif); background-size:100% auto; margin-top:30px;}
+			
+				#vision > div.table > div{
+					display:table-cell;
+					vertical-align:middle;
+					text-align:center;
+					font-size:22px; line-height:30px;
+					padding:0 10px;
+				}
+				#vision > div.table > div > h3{font-weight:bold;}
+				#vision > div.table > div > h4{color:#fff;}
+				
+			#vision > p{width:90%; margin:20px auto 0; font-size:16px; font-weight:bold; line-height:24px; letter-spacing:0px;}
+				#vision > p > span{font-weight:normal;}
+			
+		#Value_Principles{}
+			#Value_Principles > h5{font-size:20px; margin-top:55px; font-weight:bold; padding:0 10px;}
+			#Value_Principles > p{width:90%; margin:36px auto 0; padding-bottom:60px; font-size:16px; font-weight:bold; line-height:24px; letter-spacing:0px;}
+
+}

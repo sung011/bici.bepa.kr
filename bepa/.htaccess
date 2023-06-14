@@ -1,0 +1,15 @@
+php_value upload_max_filesize 200M
+php_value post_max_size 200M
+php_value max_execution_time 600
+php_value memory_limit 256M
+
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ #RewriteCond %{SERVER_PORT} 80
+
+ RewriteBase /
+ RewriteCond $1 !^(index\.php|images|captcha|data|include|uploads|robots\.txt)
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule ^(.*)$ /index.php/$1 [L]
+</IfModule>

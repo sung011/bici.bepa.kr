@@ -1,0 +1,28 @@
+/* contents.css */
+
+/*PC ver*/
+@media screen and (min-width:1201px){
+    #contents_warp{width: 100%;}
+    #about_company{display: block;width: 100%; margin: 0 auto;}
+    .contente{width: 100%;}
+    .contente > img{width: 100%;}
+
+}
+/* Tablet ver ---------------------------------------------------------------------------------------------- */
+@media screen and (max-width:1200px) and (min-width:768px){
+    #contents_warp{width:100%;}
+    #about_company{display: block;width: 100%; margin: 0 auto;}
+    .contente{width: 100%;}
+    .contente > img{width: 100%;}
+}
+
+
+
+/* Mobile ---------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:767px){
+    #contents_warp{width:100%;}
+    #about_company{display: block;width: 100%; margin: 0 auto;}
+    .contente{width: 100%;}
+    .contente > img{width: 100%;}
+}

@@ -1,0 +1,213 @@
+.h4-stitle{border-bottom:2px solid #252525;padding:5px;margin-bottom:20px;margin-top:20px;}
+.box.box-solid.box-success {
+    border: 1px solid #00a65a;
+}
+.box.box-solid.box-success>.box-header {
+    color: #fff;
+    background: #00a65a;
+    background-color: #00a65a;
+
+}
+.box-header>.fa, .box-header>.glyphicon, .box-header>.ion, .box-header .box-title {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+    line-height: 1;
+    color: #fff;
+}
+.difda-block{
+    border-top:1px solid #ddd;
+    height:100px;
+    text-align:center;
+    color:#959595;line-height:100px;
+}
+.difda-block2{
+    border-top:1px solid #ddd;
+    width:100%;
+    padding:15px;
+    text-align:left;
+    color:#959595;
+}
+.difda-block3{
+    display:none;
+    border-top:1px solid #ddd;
+    width:100%;
+    padding:15px;
+    text-align:left;
+    color:#959595;
+}
+.comment-name{
+    font-weight:bold;
+    color:#252525;
+}
+.btn-difda{
+    font-size:12px;
+    padding:5px;
+    width:80px;
+
+}
+textarea:focus{border: 1px solid #00a65a !important;}
+.ntype {
+    padding: 2px 7px;
+    display: inline-block;
+    margin: auto;
+    background: #DBDBDB;
+    color: #fff;
+    border-radius: 3px !important;
+    font-size:13px;
+}
+.ntype_1 {
+    background: #149ad7 !important;
+}
+.ntype_2 {
+    background: #a0ccf0;
+}
+.ntype_3 {
+    background: #c9c9c9;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    padding: 7px;
+    margin-top: 30px;
+}
+.td-date {
+    text-align: center;
+    color: #959595;
+    font-size: 12px;
+}
+.td-num {
+    text-align: center;
+    font-size: 12px;
+    font-weight:400;
+}
+.board-view .board-view-info {
+    position: relative;
+    box-sizing: content-box;
+    height: 46px;
+    border-top: 2px solid #757575;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 7px ;
+    margin-top: 15px;
+    background: #fafafa;
+}
+.board-view .board-view-info .view-info-box {
+    position: relative;
+}
+.board-view .board-view-info .info-box-top {
+    display: block;
+    margin: 3px 0 5px;
+    font-size:13px;
+}
+.board-view .board-view-info .info-box-top .view-nick {
+    font-size: 13px;
+    margin-right: 3px;
+}
+.board-view .board-view-info .info-box-bottom {
+    display: block;
+    font-size: 11px;
+}
+.board-view .board-view-info .info-box-bottom span {
+    margin-right: 7px;
+}
+.board-view .board-view-link {
+    font-size: 11px;
+    padding:7px;
+}
+.board-view .board-view-link ul {
+    margin-bottom: 0;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.board-view .board-view-link li {
+    padding: 7px 0;
+    border-bottom: 1px dotted #e5e5e5;
+}
+.board-view .view-top-btn .top-btn-left li {
+    float: left;
+    margin-right: 5px;
+}
+.board-view .view-top-btn .top-btn-right li {
+    float: left;
+    margin-right: 5px;
+}
+.clearfix {
+    display: block;
+    position: relative;
+    clear: both;
+}
+.btn-e-white {
+    color: #4B4B4D !important;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    padding:8px 12px;
+}
+.board-view .board-view-con {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 100%;
+    word-break: break-all;
+    padding:7px;
+}
+.board-view .board-view-atc {
+    min-height: 200px;
+}
+
+.board-view .view-area-divider {
+    position: relative;
+    height: 1px;
+    border-top: 1px solid #d5d5d5;
+    margin: 30px 0;
+}
+.view-content img{width:900px;}
+.social-icons {
+    margin: 0;
+    padding: 0;
+}
+.social-icons li {
+    list-style: none;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    text-indent: -9999px;
+    display: inline-block;
+}
+.social-icons li a {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.social_facebook {
+    background: url('/application/views/common/images/facebook.png') no-repeat;
+    background-size: 30px 30px;
+}
+.social_twitter {
+    background: url(/application/views/common/images/twitter.png) no-repeat;
+    background-size: 30px 30px;
+}
+.social_kakaostory {
+    background: url(/application/views/common/images/kakaostory.png) no-repeat;
+    background-size: 30px 30px;
+}
+.social_band {
+    background: url(/application/views/common/images/band.png) no-repeat;
+    background-size: 30px 30px;
+}
+.board-view .board-view-file {
+    font-size: 11px;
+}
+.board-view .board-view-file ul {
+    margin-bottom: 0;
+}
+.board-view .board-view-file li {
+    padding: 7px 0;
+    border-bottom: 1px dotted #e5e5e5;
+}
+pre{word-break:break-word;overflow:hidden;}
+
+.view-content span{width:900px;}
+.view-content img{width:100%;}

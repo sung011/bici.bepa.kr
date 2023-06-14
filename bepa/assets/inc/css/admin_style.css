@@ -1,0 +1,234 @@
+.bg-green, .callout.callout-success, .alert-success, .label-success, .modal-success .modal-body {
+    background-color: #00a65a !important;
+	color:#fff;
+}
+.bg-yellow, .callout.callout-warning, .alert-warning, .label-warning, .modal-warning .modal-body {
+    background-color: #f39c12 !important;
+	color:#fff;
+}
+.banner_item{
+	text-align:center;
+	padding:10px;
+}
+.banner_image{
+	border:1px solid #ddd;
+	border-radius:5px;
+	text-align:center;
+}
+.banner_body{
+	padding:5px;
+	font-weight:bold;
+}
+.btn-write {
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 1px solid #333;
+    background: #fff;
+    padding: 5px 5px 5px 5px;
+    width: 80px;
+}
+.banner_subtitle{
+	padding-bottom:10px;
+}
+
+.pad10{
+	position:relative;
+	clear:both;
+}
+
+.mlaya{
+	font-size:13px;
+	color:#000;
+	font-weight:700;
+	text-align:left;
+}
+.mlaya2{
+	font-size:14px;
+	color:red;
+}
+
+.table>tbody>tr>td{line-height:2em;font-weight:400;}
+.sear-box{
+	margin:5px;
+}
+.snic-search span{
+	vertical-align: middle;width:120px;float:left;
+	background:#585864;
+	color:#fff;
+	padding:8px;
+}
+
+.popup-input {
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: normal;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 60%;
+    height: 35px;
+    padding: 6px 10px;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    background: #FFF;
+    color: #4B4B4D;
+    appearance: normal;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+	
+}
+.popup-input {
+    border-color: #D5D5D5;
+    -ms-transition: border-color 0.2s;
+    -moz-transition: border-color 0.2s;
+    -webkit-transition: border-color 0.2s;
+}
+.inline-group > p {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.td-subject{
+	width:400px;
+}
+
+.btn-e-default {
+	width:50px;
+	height:29px;
+    color: #FFF !important;
+    background-color: #B5B5B5;
+    /*border-color: rgba(0, 0, 0, 0.1);*/
+	border:none;
+	margin-left: 5px;
+	font-size:11px;
+}
+.btn-pup{
+	margin-right:50px;
+}
+.bncheckbox{
+	padding-left:15px;
+}
+
+.zip-input{
+	float:left;
+	display:inline;
+	width:40%;
+	margin-right:2%;
+
+}
+.card, .card-group {
+    margin-bottom: 30px;
+	background:#dddd;
+	border-radius:5px;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 15px;
+}
+.meeting-txt{
+	background:#fff;
+	height:34px;
+	padding:6px;
+	font-weight:bold;
+}
+.restab {
+	position: relative;
+    padding-left: 0;
+    list-style: none;
+	margin-top: 0;
+	height:49px;
+	border-bottom: 1px solid #ddd;
+}
+
+/* Style the buttons inside the tab */
+.restab .tablinks {
+  position: relative;
+  display: block;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding:10px 13px;
+  transition: 0.3s;
+  font-size: 17px;
+  margin-bottom:-1px;
+  min-width:100px;
+  text-align:center;
+  
+}
+
+/* Change background color of buttons on hover */
+.restab .tablinks:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.restab li.active  {
+    color: #fff;
+    background-color: #0057b8;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+	 z-index:1;
+}
+
+/* Style the tab content */
+.tabcontent {
+  clear:both;
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  height:500px;
+}
+#access_tbody td{text-align:center;}
+.progress, .progress>.progress-bar, .progress .progress-bar, .progress>.progress-bar .progress-bar {
+    border-radius: 1px;
+}
+
+.progress, .progress>.progress-bar {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.progress, .progress>.progress-bar, .progress .progress-bar, .progress>.progress-bar .progress-bar {
+    border-radius: 1px;
+}
+.progress, .progress>.progress-bar {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.progress-bar-light-blue, .progress-bar-primary {
+    background-color: #3c8dbc;
+}
+.progress-bar-striped, .progress-striped .progress-bar {
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+}
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #337ab7;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
